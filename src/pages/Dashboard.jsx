@@ -45,7 +45,7 @@ const Dashboard = () => {
         </Card>
       </div>
       <div className="flex space-x-4 mb-6">
-        <Button>Create Invoice</Button>
+        <Button onClick={() => window.location.href = '/admin/create-invoice'}>Create Invoice</Button>
         <Button variant="outline">Post Update</Button>
       </div>
       {/* Add more dashboard content here */}
